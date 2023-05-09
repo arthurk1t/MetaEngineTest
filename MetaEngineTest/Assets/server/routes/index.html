@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Home</title>
+</head>
+
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+</style>
+<body>
+    <form class="container" action="http://localhost:8080/callback" method="POST"> 
+        <div class="container">
+            <label for="main">Enter value</label>
+            <input name="main" id="main" type="text">
+            <button type="submit">Send</button>
+        </div>
+    </form>
+</body>
+
+</html>
